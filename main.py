@@ -86,7 +86,7 @@ def game_over():
             snake_pos[0][0] > WIDTH - BLOCK_SIZE or \
             snake_pos[0][0] < 0 or \
             snake_pos[0][1] > HEIGHT - BLOCK_SIZE or \
-            snakle_pos[0][1] < 0
+            snake_pos[0][1] < 0
     
 def game_over_screen():
     global score
